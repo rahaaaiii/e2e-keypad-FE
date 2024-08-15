@@ -40,7 +40,7 @@ export default function useSecureKeypad() {
     }
 
     const keypadItem = keypad[row][col];
-    console.log('Keypad Item:', keypadItem);
+    //console.log('Keypad Item:', keypadItem);
 
     if (!keypadItem || !keypadItem.hashedValue || keypadItem.hashedValue === 'blank') {
       return; // blank 키는 무시하고 아무 작업도 하지 않음
